@@ -1,0 +1,74 @@
+#root {
+  background-color: #18181b;
+  color: #e7e5e4;
+  font-family: "Gruppo", sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+
+  @media (max-width: 640px) {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 4rem;
+
+  @media (max-width: 640px) {
+    font-size: 2.75rem;
+  }
+}
+
+h3 {
+  font-size: 2.5rem;
+
+  @media (max-width: 640px) {
+    font-size: 1.75rem;
+  }
+}
+
+h4 {
+  font-size: 2rem;
+
+  @media (max-width: 640px) {
+    font-size: 1.25rem;
+  }
+}
+
+p {
+  font-size: 1.15rem;
+
+  @media (max-width: 640px) {
+    font-size: 1rem;
+  }
+}
+
+.page-center {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media (min-width: 640px) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.ribbon-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+.ribbon-element h2 {
+  font-size: 5rem;
+}
+.ribbon-element p {
+  font-size: 1.5rem;
+}
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
